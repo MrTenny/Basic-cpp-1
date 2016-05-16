@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+string login, haslo;
+
+int main()
+{
+    {
+    cout << "\t\t**********SPRAWDZANIE PRAWIDLOWOSCI LOGINU I HASLA L:(ADMIN) H:(123)**********" << endl;
+    cout << "\n\t\t\t\t[---------------- PROGRAM CREATED BY RONIK -------------]" << endl;
+    }
+    cout << "     Podaj LOGIN : ";
+    cin >> login;
+    cout << "     Podaj HASLO : ";
+    cin >> haslo;
+
+    if ((login=="admin")&&(haslo=="123"))
+    {
+        cout << "Logowanie powiodlo sie!!!" << endl;
+    }
+    else
+    {
+        cout << "Logowanie nie powiodlo sie!!!" << endl;
+    }
+    return 55;
+}
