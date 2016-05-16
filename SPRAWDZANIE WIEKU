@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int wiek;
+int main()
+{
+    cout << "------Witaj. Ten program ma za zadanie sprawdzic czy jestes osoba pelnoletnia i czy mozesz zostac prezydentem.------\n\t\t\t\t\t******CREATED BY MrTenny****** "<<endl;
+    // *******************************************************************************************************************************************************************
+    cout << "Ile masz lat? ";
+    cin >> wiek;
+
+    if (wiek<18)
+        cout << "Nie jestes pelnoletni";
+    else if ((wiek>=18)&&(wiek<35))
+        cout << "Jestes Pelnoletni lecz nie mozesz zostac prezydentem. Dorosnij hehe.";
+    else
+        cout << "Jestes Pelnoletni i mozesz zostac prezydentem.";
+
+    return 55;
+}
