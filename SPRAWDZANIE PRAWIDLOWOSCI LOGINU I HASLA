@@ -8,7 +8,7 @@ int main()
 {
     {
     cout << "\t\t**********SPRAWDZANIE PRAWIDLOWOSCI LOGINU I HASLA L:(ADMIN) H:(123)**********" << endl;
-    cout << "\n\t\t\t\t[---------------- PROGRAM CREATED BY RONIK -------------]" << endl;
+    cout << "\n\t\t\t\t[---------------- PROGRAM CREATED BY MrTenny -------------]" << endl;
     }
     cout << "     Podaj LOGIN : ";
     cin >> login;
