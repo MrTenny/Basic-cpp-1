@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+string PIN;
+int main()
+{
+    cout << "Witaj w naszym banku." << "\nPodaj numer PIN: ";
+    cin >> PIN;
+
+    if(PIN=="1729")
+    {
+        cout << "Poprawny PIN\nGratulacje!";
+    }
+    else
+    {
+        cout << "Niepoprawny PIN\n Nie udalo ci sie.";
+    }
+    return 55;
+}
