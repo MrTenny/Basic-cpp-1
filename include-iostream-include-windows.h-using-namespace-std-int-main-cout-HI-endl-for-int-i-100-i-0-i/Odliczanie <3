@@ -1,0 +1,19 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+    {
+    cout << "HI" << endl;
+    }
+    for (int i=100; i>0; i--) // Od ilu      Od ilu do > x    czy dana liczba ma sie zmniejszac czy zwiekszac
+    {
+        Sleep(1500); // Co jaki czas ma sie zmniejszac/zwiekszac liczba 1000 = 1 sec
+        cout << i << endl; // Wyswietlanie odliczania na ekranie  :} PROSTE!
+    }
+
+    cout << "IM JUST LEARNING"; // Taki dopisek pod koniec odliczania czyt.(60 sec)
+    return 55;
+}
