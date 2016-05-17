@@ -14,6 +14,6 @@ int main()
         cout << i << endl; // Wyswietlanie odliczania na ekranie  :} PROSTE! (regula wyzej zalatwia wszystko) :} // Gdyby wszysko bylo tak przejrzyste
     }
 
-    cout << "IM JUST LEARNING"; // Taki dopisek pod koniec odliczania czyt.(60 sec)
+    cout << "IM JUST LEARNING"; // Taki dopisek pod koniec odliczania (czyt.60 sec)
     return 55;
 }
