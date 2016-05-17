@@ -8,10 +8,10 @@ int main()
     {
     cout << "HI" << endl;
     }
-    for (int i=100; i>0; i--) // Od ilu      Od ilu do > x    czy dana liczba ma sie zmniejszac czy zwiekszac
+    for (int i=100; i>0; i--) // Od ilu      Od ilu do > x (w tym przypadku *100do0* czyli i>0    czy dana liczba ma sie zmniejszac czy zwiekszac (-- or ++)
     {
         Sleep(1500); // Co jaki czas ma sie zmniejszac/zwiekszac liczba 1000 = 1 sec
-        cout << i << endl; // Wyswietlanie odliczania na ekranie  :} PROSTE!
+        cout << i << endl; // Wyswietlanie odliczania na ekranie  :} PROSTE! (regula wyzej zalatwia wszystko) :} // Gdyby wszysko bylo tak przejrzyste
     }
 
     cout << "IM JUST LEARNING"; // Taki dopisek pod koniec odliczania czyt.(60 sec)
