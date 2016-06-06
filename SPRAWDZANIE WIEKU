@@ -10,7 +10,7 @@ int main()
 
     if (wiek<18)
         cout << "Nie jestes pelnoletni";
-    else if ((wiek>=18)&&(wiek<35))
+    else if ((wiek>=18)&&(wiek<35)) // W przeciwnym wypadku(else).
         cout << "Jestes Pelnoletni lecz nie mozesz zostac prezydentem. Dorosnij hehe.";
     else
         cout << "Jestes Pelnoletni i mozesz zostac prezydentem.";
